@@ -1,11 +1,11 @@
 # Aplikacja webowa do wpisywania i wizualizacji danych
 
-# W czym aplikacja jest napisana?
+### W czym aplikacja jest napisana?
 * React
 * Sass
 * TypeScript
 
-# Z czego korzystałem?
+### Z czego korzystałem?
 * ant-design/icons
 * AntDesign
 * React-Icons
@@ -19,4 +19,5 @@
 * react-router
 * react-router-dom
 
-
+### Do czego się przyłożyłem najbardziej?
+Najbardziej przyłożyłem się do czytelności kodu
