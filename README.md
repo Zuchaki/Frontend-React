@@ -18,5 +18,5 @@
 * react-router
 * react-router-dom
 
-### Do czego się przyłożyłem najbardziej?
-Najbardziej przyłożyłem się do czytelności kodu
+### Na czym się skupiałem?
+W tym zadaniu najważniejsza dla mnie była czytelność i estetyka kodu
