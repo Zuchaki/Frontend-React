@@ -4,7 +4,7 @@
 * React
 * Sass
 * TypeScript
-* 
+
 # Z czego korzystałem?
 * ant-design/icons
 * AntDesign
@@ -15,5 +15,8 @@
 * React-hook-form
 * i18next
 * React-i18next
+* yup
+* react-router
+* react-router-dom
 
 
