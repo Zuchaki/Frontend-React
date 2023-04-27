@@ -1,0 +1,36 @@
+{
+    "logo": "Frontend - React",
+    "menu_Main": "Główna",
+    "menu_views":"Widok",
+    "language":"Język (PL)",
+
+
+    "name_col":"Imię i nazwisko",
+    "age_col":"Wiek",
+    "birth_date_col":"Data urodzenia",
+    "cv_col":"Życiorys",
+    "options_col":"Akcja",
+
+
+    "add_button":"Dodaj",
+    "delete_button":"Usuń",
+
+    "add_form_title":"Dodaj nową osobę",
+    "edit_form_title": "Edytuj dane osoby",
+
+
+    "name":"Imię",
+    "surname":"Nazwisko",
+    "birth_date":"Data urodzenia",
+    "cv": "Życiorys (opcjonalne)",
+    "edit":"Edytuj",
+
+
+    "number_of_elements":"Wierszy",
+    "no_data":"Brak danych",
+    "select_date":"Wybierz datę",
+
+    
+    "404_message":"Przepraszam, strona którą próbujesz odwiedzić nie istnieje.",
+    "404_button": "Wróć do Głównej"
+}

@@ -1,0 +1,50 @@
+@use "../../Assets/style";
+@use "../../Assets/Colors/colors";
+
+$primary-radius:12px;
+
+.container{
+    width: 100%;
+    height: 280px;
+    border-radius: $primary-radius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.name{
+    width: 100%;
+    height: 30%;
+    @include style.rowCenter;
+    border-bottom: 1px solid colors.$neutral-5;
+    background-color: colors.$neutral-3;
+    border-radius: $primary-radius $primary-radius 0 0;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    .age{
+        margin-right: 4px;
+        font-size: 2rem;
+    }
+}
+.birth{
+    font-size: 0.9rem;
+    color: colors.$neutral-8;
+    font-style: italic;
+}
+.cv{
+    @include style.rowCenter;
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}

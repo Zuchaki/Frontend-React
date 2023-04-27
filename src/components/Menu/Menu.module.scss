@@ -1,0 +1,61 @@
+@use "../../Assets/Colors/colors";
+
+.constiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: colors.$neutral-10;
+    background-color: colors.$neutral-4;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 1;
+}
+
+/*left side of menu*/
+.logo{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+/*middle of menu*/
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color:colors.$neutral-8;
+    .item{
+        color:colors.$neutral-9;
+        margin:0 10px;
+    }
+    .itemActive{
+        color:colors.$neutral-9;
+        font-weight: 500;
+        border-bottom:2px solid colors.$blue-6;
+        margin:0 10px;
+    }   
+}
+
+/*Right side of menu*/
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon{
+        margin:0 6px 0 0;
+        font-size: 18px;
+    }
+    .select{
+        border-radius:none;
+        outline:none;
+        background-color: colors.$neutral-4;
+        border:none;
+        font-size: 0.9rem;
+        width: 140px;
+        text-align: center;
+    }
+}

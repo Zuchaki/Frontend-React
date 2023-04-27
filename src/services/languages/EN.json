@@ -1,0 +1,35 @@
+{
+    "logo": "Frontend - React",
+    "menu_Main": "Main",
+    "menu_views": "Views",
+    "language": "Language (EN)",
+
+
+    "name_col": "Name and Surname",
+    "age_col": "Age",
+    "birth_date_col": "Date of birth",
+    "cv_col": "Memoir",
+    "options_col": "Action",
+
+
+    "add_button": "Add",
+    "delete_button": "Delete",
+
+    "add_form_title": "Add a new person",
+    "edit_form_title": "Edit a new person",
+
+
+    "name": "Name",
+    "surname": "Surname",
+    "birth_date": "Date of birth",
+    "cv": "CV (optional)",
+    "edit": "Edit",
+
+    "number_of_elements": "Rows",
+    "no_data":"No data",
+    "select_date":"Select date",
+
+
+    "404_message":"Sorry, the page you visited does not exist.",
+    "404_button": "Back to Main"
+}

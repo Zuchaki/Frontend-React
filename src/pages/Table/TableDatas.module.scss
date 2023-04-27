@@ -1,0 +1,83 @@
+@use "../../Assets/Colors/colors";
+@use "../../Assets/style";
+
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 10px;
+
+    Button{
+        margin:0 0 0 10px;
+    }
+}
+.animationSelected{
+    animation-name: selected;
+    animation-duration: 0.5s;
+}
+@keyframes selected {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-6px);}
+    40% {transform: translateX(6px);}
+    60% {transform: translateX(-3px);}
+    80% {transform: translateX(3px);}
+    100% {transform: translateX(0px);}
+}
+
+.form{
+    position: fixed;
+    min-width: 800px;
+    top: 50%; 
+    left: 50%;
+    padding: 100px 100px; 
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    background-color: colors.$neutral-2;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.table{
+    max-width: 100%;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    width: 15px;
+    height: 15px;
+    color: colors.$neutral-3;
+    background-color: #ca444b;
+    padding: 4px;
+    border-radius: 360px;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+}
+.close:hover{
+    cursor: pointer;
+    background-color: #ec666d;
+}
+.actionButton{
+    color: colors.$blue-7;
+    transition-duration: 0.2s;
+    font-weight: 500;
+    margin-right: 16px;
+}
+.actionButton:nth-child(2){
+    color: #ca444b;
+    font-weight: 500;
+}
+.actionButton:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+.cv{
+    display: inline-block;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rowCenter{
+    @include style.rowCenter;
+}
