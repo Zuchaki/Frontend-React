@@ -11,10 +11,9 @@
 * React-Icons
 * React-redux
 * Redux
-* React-i18next
-* React-hook-form
 * i18next
 * React-i18next
+* React-hook-form
 * yup
 * react-router
 * react-router-dom
