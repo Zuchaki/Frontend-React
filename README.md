@@ -1,13 +1,18 @@
 # Aplikacja webowa do wpisywania i wizualizacji danych
 
 # Z czego korzystałem?
-### @ant-design/icons
-Zestaw icon od AndDesign
-```
-npm i @ant-design/icons
-```
+* ant-design/icons
+
 ### AntDesign
-Zestaw icon od AndDesign
 ```
 npm i antd
 ```
+### React-Icons
+```
+npm i react-icons
+```
+### React-redux
+```
+npm i react-redux
+```
+
