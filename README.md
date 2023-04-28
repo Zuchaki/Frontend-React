@@ -2,7 +2,7 @@
 
 ### W czym aplikacja jest napisana?
 * React
-* Sass
+* Scss
 * TypeScript
 
 ### Z czego korzystałem?
